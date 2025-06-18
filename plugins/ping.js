@@ -21,7 +21,7 @@ async (conn, mek, m, { from, quoted, reply }) => {
 
         // Send the ping result
         await conn.sendMessage(from, { 
-            text: `*🔥KAVIYA MD🔥 SPEED: ${ping}M/s*`, 
+            text: `*𝗦𝗣𝗘𝗘𝗗 𝗧𝗢 𝗞𝗔𝗩𝗜𝗬𝗔-𝗠𝗗 🤗❤️‍🩹": ${ping}M/s*`, 
             contextInfo: {
                 mentionedJid: [m.sender],
                 forwardingScore: 999,
