@@ -21,10 +21,10 @@ async (conn, mek, m, { from, quoted, reply }) => {
         // Define the settings message with the correct boolean checks
         let envSettings = `╭〔 *【𝐁.𝐌.𝐁-𝐗𝐌𝐃】* 〕⊷
 ┃▸╭───────────
-┃▸┃๏ *ENV SETTINGS 🗿*
+┃▸┃๏ *𝗞𝗔𝗩𝗜𝗬𝗔 𝗠𝗗*
 ┃▸└───────────···๏
 ╰────────────────┈⊷
-╭━━〔 *Enabled Disabled* 〕━━┈⊷
+╭━━〔 *🤍𝗞𝗔𝗩𝗜𝗬𝗔 𝗠𝗗 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 𝗕𝗢𝗧🤍* 〕━━┈⊷
 ┇๏ *Auto Read Status:* ${isEnabled(config.AUTO_STATUS_SEEN) ? "Enabled ✅" : "Disabled ❌"}
 ┇๏ *Auto Reply Status:* ${isEnabled(config.AUTO_STATUS_REPLY) ? "Enabled ✅" : "Disabled ❌"}
 ┇๏ *Auto Reply:* ${isEnabled(config.AUTO_REPLY) ? "Enabled ✅" : "Disabled ❌"}
@@ -48,7 +48,7 @@ async (conn, mek, m, { from, quoted, reply }) => {
         await conn.sendMessage(
             from,
             {
-                image: { url: 'https://i.ibb.co/BY2HCkh/nexus-xmd.jpg'}, // Image URL
+                image: { url: 'https://files.catbox.moe/cctwo6.jpg'}, // Image URL
                 caption: envSettings,
                 contextInfo: {
                     mentionedJid: [m.sender],
