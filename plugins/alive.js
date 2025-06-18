@@ -14,7 +14,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
     try {
         // Generate system status message
         const status = `
-╭──〔KAVIYA MD〕───·๏
+╭──〔𝗞𝗔𝗩𝗜𝗬𝗔 𝗠𝗗 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 𝗕𝗢𝗧〕───·๏
 ┃🛸┃• *⏳ Uptime*:  ${runtime(process.uptime())} 
 ┃🛸┃• *📟 Ram usage*: ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}GB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}TB
 ┃🛸┃• *⚙️ HostName*: ${os.hostname()}
