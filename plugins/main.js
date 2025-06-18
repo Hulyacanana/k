@@ -5,17 +5,17 @@ const {runtime} = require('../lib/functions')
 const axios = require('axios')
 
 cmd({
-    pattern: "menu2",
+    pattern: "menu",
     alias: "allmenu",
     desc: "menu the bot",
-    category: "menu2",
-    react: "🇹🇿",
+    category: "menu",
+    react: "🇱🇰",
     filename: __filename
 }, 
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
     try {
         let dec = `
-╭━〔 *KAVIYA MD* 〕━┈⊷
+╭━〔 *𝗞𝗔𝗩𝗜𝗬𝗔 𝗠𝗗 🇱🇰* 〕━┈⊷
 ┃★╭──────────────
 ┃★│ Owner : *${config.OWNER_NAME}*
 ┃★│ Baileys : *Multi Device*
