@@ -31,7 +31,7 @@ async (conn, mek, m, { from }) => {
         await conn.sendMessage(from, {
             image: { url: 'https://i.ibb.co/201XgZ5f/SulaMd.jpg' }, // Image URL from your request
             caption: `
-╭━〔 *🔥KAVIYA MD🔥* 〕━┈⊷
+╭━〔 *❤️‍🩹𝗞𝗔𝗩𝗜𝗬𝗔 𝗠𝗗 𝗪𝗛𝗔𝗧𝗦𝗔𝗣𝗣 𝗕𝗢𝗧❤️‍🩹* 〕━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *Here is the owner details*
 ┃◈┃• *Name* - ${ownerName}
@@ -46,7 +46,7 @@ async (conn, mek, m, { from }) => {
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: '120363382023564830@newsletter',
-                    newsletterName: 'KAVIYA 🔥',
+                    newsletterName: '𝗸𝗮𝘃𝗶𝘆𝗮 ❤️‍🩹🤗',
                     serverMessageId: 143
                 }            
             }
