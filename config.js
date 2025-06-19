@@ -27,7 +27,7 @@ ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/p9hyal.jpg",
 // add img for alive msg
 LIVE_MSG: process.env.LIVE_MSG || "KAVIYA MD IS ACTIVE AND ALIVE\n\n\nKEEP USING KAVIYA MD FROM DILA TECH INC⚡",
 // add alive msg here 
-READ_MESSAGE: process.env.READ_MESSAGE || "true",
+READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
 AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
